@@ -19,7 +19,7 @@ Download [manually](https://github.com/julien-f/nodejs-is-readable-stream/releas
 ## Example
 
 ```javascript
-var isReadableStream = makeError('is-readable-stream');
+var isReadableStream = require('is-readable-stream');
 
 isReadableStream(null);
 // → false
